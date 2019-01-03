@@ -8,10 +8,15 @@
     "node": ">=6.13.0"
   },
   "scripts": {
+    "server-dev": "node server/server.js"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "express": "^4.16.4",
+    "http-proxy-middleware": "^0.19.1",
+    "morgan": "^1.9.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   }
 }

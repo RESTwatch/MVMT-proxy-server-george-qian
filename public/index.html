@@ -3,11 +3,32 @@
 <head>
   <title>MVMT Item Page</title>
   <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
 </head>
 <body>
+  <div id="nav-bar">
+    <div id="nav-bar-main"> MVMT </div>
+    <div id="nav-bar-text-left-container">
+      <span class="nav-bar-text"> mens </span>
+      <span class="nav-bar-text"> womens </span>
+      <span class="nav-bar-text"> brand </span>
+    </div>
+    <div id="nav-bar-text-right-container">
+      <span class="nav-bar-text"> account </span>
+      <span class="nav-bar-text"> cart </span>
+    </div>
+  </div>
+  <div id="photos-summary-container">
+    <div id="Photos"></div>
+    <div id="Summary"></div>
+  </div>
   <div id="Details"></div>
+  <div id="Reviews"></div>
   <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script src="http://localhost:3001/watches/:wid/bundle.js"></script>
+  <script src="http://localhost:3002/watches/:wid/bundle.js"></script>
   <script src="http://localhost:3003/watches/:wid/bundle.js"></script>
+  <script src="http://localhost:3004/watches/:wid/bundle.js"></script>
 </body>
 </html>

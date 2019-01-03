@@ -1,0 +1,55 @@
+#nav-bar {
+  background-color: black;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  z-index: 9999;
+  margin-top: -10px;
+  margin-left: -8px;
+  font-family: 'Questrial', sans-serif;
+  font-variant: small-caps;
+  color: white;
+}
+
+#nav-bar-text-left-container {
+  margin-top: -25px;
+  margin-left: 50px;
+}
+
+.nav-bar-text {
+  padding: 0 25px;
+}
+
+#nav-bar-main {
+  font-size: 30px;
+  margin-left: 45%;
+  margin-top: 10px;
+}
+
+#nav-bar-text-right-container {
+  margin-top: -15px;
+  float: right;
+  margin-right: 50px;
+}
+
+#photos-summary-container {
+  display: flex;
+  align-content: space-between;
+  margin: 0 auto;
+}
+
+#Photos {
+  margin-top: 50px;
+}
+
+#Summary {
+  margin-top: 30px;
+}
+
+#Details {
+
+}
+
+#Reviews {
+  margin-top: 50px;
+}

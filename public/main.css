@@ -18,6 +18,12 @@
 
 .nav-bar-text {
   padding: 0 25px;
+  transition: color .5s;
+}
+
+.nav-bar-text:hover {
+  cursor: pointer;
+  color: #A40000;
 }
 
 #nav-bar-main {

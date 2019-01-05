@@ -8,7 +8,7 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "server-dev": "node server/server.js"
+    "start": "node server/server.js"
   },
   "dependencies": {},
   "devDependencies": {

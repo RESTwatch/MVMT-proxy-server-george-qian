@@ -1,6 +1,6 @@
 # RESTwatch Proxy Server
 
-> Proxy server built to render final product on one page.
+> Proxy server built to render final RESTwatch product on one page.
 
 ## Related Projects
 
